@@ -1,0 +1,19 @@
+{
+  "equipos": [
+    {
+      "id": "7075",
+      "nombre": "Real Madrid",
+      "pais": "España"
+    },
+    {
+      "id": "3797",
+      "nombre": "Arsenal",
+      "pais": "Inglaterra"
+    },
+    {
+      "id": "1371",
+      "nombre": "Inter de Milan",
+      "pais": "Italia"
+    }
+  ]
+}
