@@ -16,16 +16,22 @@ const CrudTable = ({ equipos, setEditData }) => {
           </tr>
         </thead>
 
-        {equipos.length ===0 ? 
-            <td>No hay Datos</td> : equipos.map ((equipo,index)=>{
-                return <tbody key={index}>
+        {equipos.length === 0 ? (
+          <td>No hay Datos</td>
+        ) : (
+          equipos.map((equipo, index) => {
+            return (
+              <tbody key={index}>
                 <tr key={index}>
-                  
                   <td>{equipo.id}</td>
                   <td>{equipo.equipo}</td>
                   <td>{equipo.pais}</td>
                   <td>
-                    <Button onClick={()=>setEditData(equipo)} style={{ marginLeft: "5px" }} variant="primary">
+                    <Button
+                      onClick={() => setEditData(equipo)}
+                      style={{ marginLeft: "5px" }}
+                      variant="primary"
+                    >
                       Editar
                     </Button>
                     <Button style={{ marginLeft: "5px" }} variant="primary">
@@ -34,10 +40,9 @@ const CrudTable = ({ equipos, setEditData }) => {
                   </td>
                 </tr>
               </tbody>
-            })
-         }
-
-        
+            );
+          })
+        )}
       </Table>
     </>
   );

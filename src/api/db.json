@@ -1,19 +1,24 @@
 {
   "equipos": [
     {
-      "id": "7075",
-      "nombre": "Real Madrid",
+      "id": "5182",
+      "nombre": "Real Madrid!!",
       "pais": "España"
     },
     {
-      "id": "3797",
+      "id": "4216",
       "nombre": "Arsenal",
-      "pais": "Inglaterra"
+      "pais": "Inglaterra "
     },
     {
-      "id": "1371",
-      "nombre": "Inter de Milan",
-      "pais": "Italia"
+      "id": "6730",
+      "nombre": "dd",
+      "pais": "aaa"
+    },
+    {
+      "id": "3084",
+      "nombre": "Arsenal",
+      "pais": "Alemania"
     }
   ]
 }

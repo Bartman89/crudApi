@@ -1,4 +1,4 @@
-.container {
+.containers{
   display: flex;
   flex-direction: column;
 }
@@ -7,11 +7,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 .loader {
-  border-color:#0070f3;
+  border-color: #0070f3;
   border-left-color: #0070f355;
   border-bottom-color: #0070f355;
   border-radius: 50%;
@@ -23,13 +22,13 @@
 }
 
 @keyframes spiner {
-0%{
-  transform: rotate(0deg);
-}
+  0% {
+    transform: rotate(0deg);
+  }
 
-100% {
-  transform: rotate(360deg);
-}
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .error-message {
